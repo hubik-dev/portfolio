@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background: #000;
+
+  &::after {
+    content: "asd";
+    color: #fff;
+    width: 200px;
+    height: 200px;
+  }
+}
