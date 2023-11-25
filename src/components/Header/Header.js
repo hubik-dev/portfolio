@@ -1,5 +1,4 @@
 import styles from "./Header.module.scss";
-import SocialsList from "./SocialsList/SocialsList";
 import Logo from "./Logo/Logo";
 import MainMenu from "./MainMenu/MainMenu";
 
@@ -8,7 +7,6 @@ const Header = () => {
     <header className={`${styles.header} row align-items-center`}>
       <Logo />
       <MainMenu />
-      <SocialsList />
     </header>
   );
 };

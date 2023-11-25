@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+ol,
+ul {
+  padding: 0;
+}
+
 img {
   max-width: 100%;
 }

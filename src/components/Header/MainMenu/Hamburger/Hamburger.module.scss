@@ -1,0 +1,89 @@
+.hamburger {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin-left: auto;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:hover span {
+    background: #267700;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 50%;
+    background: #00ff95;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+
+  span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 6px 6px 0;
+  }
+
+  span:nth-child(odd) {
+    left: 0px;
+    border-radius: 6px 0 0 6px;
+  }
+
+  span:nth-child(1),
+  span:nth-child(2) {
+    top: 0px;
+  }
+
+  span:nth-child(3),
+  span:nth-child(4) {
+    top: 12px;
+  }
+
+  span:nth-child(5),
+  span:nth-child(6) {
+    top: 24px;
+  }
+
+  &.open span:nth-child(1),
+  &.open span:nth-child(6) {
+    transform: rotate(45deg);
+  }
+
+  &.open span:nth-child(2),
+  &.open span:nth-child(5) {
+    transform: rotate(-45deg);
+  }
+
+  &.open span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  &.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  &.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  &.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  &.open span:nth-child(5) {
+    left: 5px;
+    top: 29px;
+  }
+
+  &.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 29px;
+  }
+}
