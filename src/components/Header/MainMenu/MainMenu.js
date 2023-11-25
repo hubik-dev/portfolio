@@ -5,7 +5,7 @@ import styles from "./MainMenu.module.scss";
 
 const MainMenu = () => {
   return (
-    <div className={"col-9"}>
+    <div className={"col-4 col-sm-5 col-md-6 col-lg-7 col-xl-9"}>
       <Hamburger />
       <div className={`${styles.menu} row flex-column flex-xl-row`}>
         <div className={"col-xl-9"}>

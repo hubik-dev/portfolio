@@ -7,6 +7,10 @@
   transition: 0.5s ease-in-out;
   cursor: pointer;
 
+  @media (min-width: 1200px) {
+    display: none;
+  }
+
   &:hover span {
     background: #267700;
   }

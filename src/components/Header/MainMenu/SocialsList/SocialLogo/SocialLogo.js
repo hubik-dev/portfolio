@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./SocialLogo.module.scss";
 
 const SocialLogo = (props) => {
