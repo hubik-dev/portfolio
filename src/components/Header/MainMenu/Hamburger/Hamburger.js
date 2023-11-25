@@ -1,19 +1,15 @@
-import { useState } from "react";
 import styles from "./Hamburger.module.scss";
+import { useMenu } from "../../../../context/MenuContext";
 
 const Hamburger = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isMenuOpen, toggleMenu } = useMenu();
 
-  const handleToggle = () => {
-    setIsOpen((prevIsOpen) => !prevIsOpen);
-  };
-
-  const hamburgerClasses = isOpen
+  const hamburgerClasses = isMenuOpen
     ? `${styles.hamburger} ${styles.open}`
     : styles.hamburger;
 
   return (
-    <div className={hamburgerClasses} onClick={handleToggle}>
+    <div className={hamburgerClasses} onClick={toggleMenu}>
       <span></span>
       <span></span>
       <span></span>

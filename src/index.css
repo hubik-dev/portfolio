@@ -16,3 +16,7 @@ img {
 body {
   background-color: #191919;
 }
+
+html {
+  overflow: hidden;
+}
