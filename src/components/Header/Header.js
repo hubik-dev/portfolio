@@ -4,9 +4,13 @@ import MainMenu from "./MainMenu/MainMenu";
 
 const Header = () => {
   return (
-    <header className={`${styles.header} row align-items-center`}>
-      <Logo />
-      <MainMenu />
+    <header className={styles.header}>
+      <div className="container">
+        <div className="row align-items-center">
+          <Logo />
+          <MainMenu />
+        </div>
+      </div>
     </header>
   );
 };
