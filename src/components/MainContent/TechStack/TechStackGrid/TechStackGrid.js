@@ -14,6 +14,8 @@ import sassLogo from "../../../../assets/main/TechStack/sass-logo.svg";
 import vscodeLogo from "../../../../assets/main/TechStack/vscode-logo.svg";
 import wordpressLogo from "../../../../assets/main/TechStack/wordpress-logo.png";
 
+import styles from "./TechStackGrid.module.scss";
+
 const TechStackGrid = () => {
   const images = {
     html: { src: htmlLogo, alt: "HTML Logo" },
@@ -31,10 +33,12 @@ const TechStackGrid = () => {
   };
 
   return (
-    <div className="row g-5 row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6">
-      {Object.entries(images).map(([key, value]) => (
-        <TechStackGridItem key={key} src={value.src} alt={value.alt} />
-      ))}
+    <div className={styles.techStackGrid}>
+      <div className="row g-5 row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6">
+        {Object.entries(images).map(([key, value]) => (
+          <TechStackGridItem key={key} src={value.src} alt={value.alt} />
+        ))}
+      </div>
     </div>
   );
 };
