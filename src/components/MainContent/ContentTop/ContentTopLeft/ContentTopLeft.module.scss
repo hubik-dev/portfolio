@@ -1,0 +1,8 @@
+.h1 {
+  font-weight: 700;
+  background: linear-gradient(to right, #267700, #00ff95);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensure the background gradient only affects the text */
+}

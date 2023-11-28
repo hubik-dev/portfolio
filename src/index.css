@@ -15,11 +15,13 @@ img {
 
 body {
   background-color: #191919;
+  color: #00ff95;
+  font-family: "Space Mono", monospace;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 /* Track */
@@ -30,7 +32,7 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #00ff95;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: 0.3s ease-in-out;
 }
 

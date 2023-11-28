@@ -1,3 +1,8 @@
 .contentTop {
-  margin: 200px 0;
+  margin: 150px 0;
+
+  @media (max-width: 767px) {
+    margin: 75px 0;
+    text-align: center;
+  }
 }
