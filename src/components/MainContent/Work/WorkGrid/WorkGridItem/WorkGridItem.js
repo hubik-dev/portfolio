@@ -1,0 +1,3 @@
+const WorkGridItem = (props) => {
+  return {};
+};
