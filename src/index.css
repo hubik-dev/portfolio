@@ -17,6 +17,7 @@ body {
   background-color: #191919;
   color: #00ff95;
   font-family: "Space Mono", monospace;
+  font-size: 24px;
 }
 
 /* width */
@@ -33,4 +34,8 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #00ff95;
   transition: 0.3s ease-in-out;
+}
+
+h2 {
+  font-size: 36px;
 }

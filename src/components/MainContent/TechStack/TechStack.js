@@ -1,7 +1,12 @@
+import styles from "./TechStack.module.scss";
+import TechStackTextContent from "./TechStackTextContent/TechStackTextContent";
+import TechStackGrid from "./TechStackGrid/TechStackGrid";
+
 const TechStack = () => {
   return (
-    <div>
-      <h1>asd</h1>
+    <div className={styles.techStack}>
+      <TechStackTextContent />
+      <TechStackGrid />
     </div>
   );
 };
