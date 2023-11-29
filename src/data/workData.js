@@ -1,0 +1,58 @@
+import bg from "../assets/main/work/misc/bg.svg";
+
+export const workData = {
+  project1: {
+    src: bg,
+    alt: "Project 1 alt text",
+    title: "Project 1 title",
+    desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+  project2: {
+    src: bg,
+    alt: "Project 2 alt text",
+    title: "Project 2 title",
+    desc: "Some text for the project description.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+  project3: {
+    src: bg,
+    alt: "Project 3 alt text",
+    title: "Project 3 title",
+    desc: "Some longer text for the project description. Maybe one more sentence.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+  project4: {
+    src: bg,
+    alt: "Project 4 alt text",
+    title: "Project 4 title",
+    desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+  project5: {
+    src: bg,
+    alt: "Project 5 alt text",
+    title: "Project 5 title",
+    desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+  project6: {
+    src: bg,
+    alt: "Project 6 alt text",
+    title: "Project 6 title",
+    desc: "Some text for the project description.",
+    techStack: "React, Bootstrap",
+    live: "#",
+    github: "#",
+  },
+};
