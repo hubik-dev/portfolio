@@ -1,0 +1,64 @@
+.workGridItem {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #363636;
+
+  .projectImgWrapper {
+    aspect-ratio: 3/2;
+
+    .projectImg {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .textContent {
+    padding: 30px;
+
+    .techStack {
+      font-size: 16px;
+    }
+
+    .linkWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        font-size: 16px;
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+
+        svg {
+          width: 16px;
+
+          &.github,
+          &.link {
+            transition: 0.3s ease-in-out;
+          }
+        }
+
+        &:hover {
+          color: #267700;
+
+          &.github {
+            path {
+              fill: #267700;
+            }
+          }
+
+          &.link {
+            path {
+              stroke: #267700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
