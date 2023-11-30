@@ -9,13 +9,25 @@ const SocialsList = () => {
     <div className={"col-auto"}>
       <ul className={styles.ul}>
         <li>
-          <SocialLogo src={githubLogo} alt="Github Logo" />
+          <SocialLogo
+            src={githubLogo}
+            alt="Github Logo"
+            href="https://github.com/hubik-dev/"
+          />
         </li>
         <li>
-          <SocialLogo src={linkedInLogo} alt="LinkedIn Logo" />
+          <SocialLogo
+            src={linkedInLogo}
+            alt="LinkedIn Logo"
+            href="https://www.linkedin.com/in/bence-hubik/"
+          />
         </li>
         <li>
-          <SocialLogo src={instagramLogo} alt="Instagram Logo" />
+          <SocialLogo
+            src={instagramLogo}
+            alt="Instagram Logo"
+            href="https://www.instagram.com/hubik.dev/"
+          />
         </li>
       </ul>
     </div>

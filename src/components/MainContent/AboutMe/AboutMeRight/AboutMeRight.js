@@ -1,6 +1,6 @@
-import styles from "./ContentTopRight.module.scss";
+import styles from "./AboutMeRight.module.scss";
 
-const ContentTopRight = () => {
+const AboutMeRight = () => {
   return (
     <div className="col-12 col-md-6 col-xl-5">
       <div className={styles.img}></div>
@@ -8,4 +8,4 @@ const ContentTopRight = () => {
   );
 };
 
-export default ContentTopRight;
+export default AboutMeRight;

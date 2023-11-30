@@ -1,6 +1,6 @@
-import styles from "./ContentTopLeft.module.scss";
+import styles from "./AboutMeLeft.module.scss";
 
-const ContentTopLeft = () => {
+const AboutMeLeft = () => {
   return (
     <div className="col-12 col-md-6 col-xl-7">
       <h1 className={styles.h1}>
@@ -10,4 +10,4 @@ const ContentTopLeft = () => {
   );
 };
 
-export default ContentTopLeft;
+export default AboutMeLeft;

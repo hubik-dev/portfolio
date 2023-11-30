@@ -16,7 +16,7 @@ const MainMenu = () => {
       <div className={menuClasses}>
         <div className={"col-xl-9"}>
           <ul className={styles.ul}>
-            <MenuItem href="#" name="about_me" />
+            <MenuItem href="#aboutMe" name="about_me" />
             <MenuItem href="#" name="tech_stack" />
             <MenuItem href="#" name="work" />
             <MenuItem href="#" name="contact" />
