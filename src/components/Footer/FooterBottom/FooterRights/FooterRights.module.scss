@@ -1,0 +1,8 @@
+.footerRights {
+  font-size: 18px;
+  color: #eeeeee;
+
+  @media (max-width: 575px) {
+    margin-top: 20px;
+  }
+}
