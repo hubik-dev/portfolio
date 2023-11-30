@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c1f0b540.css",
+    "main.js": "/portfolio/static/js/main.8b463f0b.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.f3da8fe7ff7acb4877d9.png",
+    "static/media/me.jpeg": "/portfolio/static/media/me.a1926143baa58637e7a8.jpeg",
+    "static/media/wordpress-logo.png": "/portfolio/static/media/wordpress-logo.33172d0feb357c4dc28a.png",
+    "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.bb9b9d749d40e498f714.png",
+    "static/media/sass-logo.svg": "/portfolio/static/media/sass-logo.f20a1a4c2f3cd6bf519cbc812ff36f7d.svg",
+    "static/media/react-logo.svg": "/portfolio/static/media/react-logo.a0265b6e1e20402f0a63c16d9d5c692a.svg",
+    "static/media/hubikdev-logo.svg": "/portfolio/static/media/hubikdev-logo.7867e794f2bede7e48832189abdfee06.svg",
+    "static/media/vscode-logo.svg": "/portfolio/static/media/vscode-logo.6aba2a85371049fb4117a4a3c79c269c.svg",
+    "static/media/instagram-logo.svg": "/portfolio/static/media/instagram-logo.539adc0977aec1093c4d0dfc492e3703.svg",
+    "static/media/js-logo.svg": "/portfolio/static/media/js-logo.d293871fa9c42620bfca4879e4a9d4bd.svg",
+    "static/media/github-logo.svg": "/portfolio/static/media/github-logo.bed61372d7ae6f20abfc03bc8421b3ae.svg",
+    "static/media/git-logo.svg": "/portfolio/static/media/git-logo.0dd7ae1bbf4be3567f6c2ca5c76dfb2a.svg",
+    "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.70563617b7245ba5d197314546349e35.svg",
+    "static/media/chatgpt-logo.svg": "/portfolio/static/media/chatgpt-logo.b9aba638efa7d7f197111e16c3133af3.svg",
+    "static/media/link-icon.svg": "/portfolio/static/media/link-icon.68dce04165a10e38ac097bda34d08020.svg",
+    "static/media/css-logo.svg": "/portfolio/static/media/css-logo.1eb725fed80e6cd17129386644d5ddab.svg",
+    "static/media/html-logo.svg": "/portfolio/static/media/html-logo.0dc5a4006e7f3710611d893a3201278a.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/elementor-logo.svg": "/portfolio/static/media/elementor-logo.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
+    "main.c1f0b540.css.map": "/portfolio/static/css/main.c1f0b540.css.map",
+    "main.8b463f0b.js.map": "/portfolio/static/js/main.8b463f0b.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1f0b540.css",
+    "static/js/main.8b463f0b.js"
+  ]
+}
