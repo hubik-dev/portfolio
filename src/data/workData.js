@@ -1,8 +1,8 @@
-import bg from "../assets/main/work/misc/bg.svg";
+import portfolio from "../assets/main/work/projects/portfolio.png";
 
 export const workData = {
   project1: {
-    src: bg,
+    src: portfolio,
     alt: "Project 1 alt text",
     title: "Project 1 title",
     desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
@@ -11,7 +11,7 @@ export const workData = {
     github: "#",
   },
   project2: {
-    src: bg,
+    src: portfolio,
     alt: "Project 2 alt text",
     title: "Project 2 title",
     desc: "Some text for the project description.",
@@ -20,7 +20,7 @@ export const workData = {
     github: "#",
   },
   project3: {
-    src: bg,
+    src: portfolio,
     alt: "Project 3 alt text",
     title: "Project 3 title",
     desc: "Some longer text for the project description. Maybe one more sentence.",
@@ -29,7 +29,7 @@ export const workData = {
     github: "#",
   },
   project4: {
-    src: bg,
+    src: portfolio,
     alt: "Project 4 alt text",
     title: "Project 4 title",
     desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
@@ -38,7 +38,7 @@ export const workData = {
     github: "#",
   },
   project5: {
-    src: bg,
+    src: portfolio,
     alt: "Project 5 alt text",
     title: "Project 5 title",
     desc: "Some longer text for the project description. Maybe one more sentence. Okay this should be enough for testing.",
@@ -47,7 +47,7 @@ export const workData = {
     github: "#",
   },
   project6: {
-    src: bg,
+    src: portfolio,
     alt: "Project 6 alt text",
     title: "Project 6 title",
     desc: "Some text for the project description.",

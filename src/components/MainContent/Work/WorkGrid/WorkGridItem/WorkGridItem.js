@@ -1,12 +1,26 @@
+import React, { useEffect, useRef } from "react";
+
 import styles from "./WorkGridItem.module.scss";
 import linkIcon from "../../../../../assets/main/work/misc/link-icon.svg";
 import githubIcon from "../../../../../assets/main/work/misc/github-logo.svg";
 
 const WorkGridItem = (props) => {
+  const wrapperRef = useRef(null);
+
+  useEffect(() => {
+    if (wrapperRef.current) {
+      const wrapperHeight = wrapperRef.current.clientHeight;
+      document.documentElement.style.setProperty(
+        "--wrapper-height",
+        `${wrapperHeight}px`
+      );
+    }
+  }, []);
+
   return (
     <div className="col d-flex justify-content-center">
       <div className={styles.workGridItem}>
-        <div className={styles.projectImgWrapper}>
+        <div className={styles.projectImgWrapper} ref={wrapperRef}>
           <img src={props.src} alt={props.alt} className={styles.projectImg} />
         </div>
         <div className={styles.textContent}>

@@ -1,29 +1,40 @@
 .workGridItem {
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: #363636;
   height: 100%;
-
-  max-width: 400px;
-  min-height: 690px;
+  border: 1px solid #00ff95;
 
   display: flex;
   flex-direction: column;
 
+  max-width: 400px;
+  min-height: 680px;
+
   .projectImgWrapper {
     aspect-ratio: 3/2;
+    overflow: hidden;
+
+    &:hover {
+      .projectImg {
+        transform: translateY(calc(-100% + var(--wrapper-height)));
+      }
+    }
 
     .projectImg {
       object-fit: cover;
       width: 100%;
+
+      transform: translateY(0);
+      transition: transform 10s linear;
     }
   }
 
   .textContent {
     padding: 30px;
-    height: 100%;
     display: flex;
     flex-direction: column;
+    height: 100%;
 
     .techStack {
       margin-top: auto;
