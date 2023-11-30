@@ -17,9 +17,9 @@ const MainMenu = () => {
         <div className={"col-xl-9"}>
           <ul className={styles.ul}>
             <MenuItem href="#aboutMe" name="about_me" />
-            <MenuItem href="#" name="tech_stack" />
-            <MenuItem href="#" name="work" />
-            <MenuItem href="#" name="contact" />
+            <MenuItem href="#techStack" name="tech_stack" />
+            <MenuItem href="#work" name="work" />
+            <MenuItem href="#contact" name="contact" />
           </ul>
         </div>
         <SocialsList />

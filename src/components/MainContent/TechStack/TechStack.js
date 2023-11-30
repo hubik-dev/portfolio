@@ -4,7 +4,7 @@ import TechStackGrid from "./TechStackGrid/TechStackGrid";
 
 const TechStack = () => {
   return (
-    <div className={styles.techStack}>
+    <div className={styles.techStack} id="techStack">
       <TechStackTextContent />
       <TechStackGrid />
     </div>

@@ -4,7 +4,7 @@ import styles from "./Work.module.scss";
 
 const Work = () => {
   return (
-    <div className={styles.work}>
+    <div className={styles.work} id="work">
       <WorkTextContent />
       <WorkGrid />
     </div>
