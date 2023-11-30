@@ -1,0 +1,15 @@
+.contact {
+  text-align: center;
+  margin: 300px 0;
+
+  a {
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(to right, #267700, #00ff95);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+}
