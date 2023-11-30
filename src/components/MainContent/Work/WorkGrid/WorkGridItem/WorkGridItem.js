@@ -4,7 +4,7 @@ import githubIcon from "../../../../../assets/main/work/misc/github-logo.svg";
 
 const WorkGridItem = (props) => {
   return (
-    <div className="col">
+    <div className="col d-flex justify-content-center">
       <div className={styles.workGridItem}>
         <div className={styles.projectImgWrapper}>
           <img src={props.src} alt={props.alt} className={styles.projectImg} />
